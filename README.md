@@ -1,6 +1,39 @@
 # Real-Time Multiple Objects Tracking DLC-based Framework 
 
-This project meant to exploit the excellence of the inference of DeepLabCut for objects detection, pose estimation
-and track them across time (Kalman filter prediction in abscence of detections), rather than process every frame individually Thus, acheiving real-time tracking.The hungarian algorithm was used to solve the data association problem.
+## Introduction
 
- 
+This repository contains code for Realtime Mutiple Object Tracking with DLC2 Detectors.
+Despite, the recent remarkable progress in object detection deep-learning-based-systems, many of them do not track across time, but rather process each frame individually. Furthermore, the absence of computational efficiency and important latencies inspired taking local motion estimation and thus, achieving higher performance and lower latency. Read the report for more
+detailed information.
+
+By: Tabet Ehsainieh
+
+## Dependencies
+The code is compatible with Python 3. The following dependencies are needed to run the framework:
+* NumPy
+* skimage
+* scipy
+* OpenCV
+* Additionally, feature generation requires TensorFlow (>= 1.1).
+
+## Installation
+
+First, clone the repository:
+```
+git clone https://github.com/nwojke/deep_sort.git
+```
+Then, follow the instruction here to install an anconda enviroment:
+[here](https://github.com/AlexEMG/DeepLabCut/blob/master/docs/installation.md).
+
+*NOTE:* for realtime tracking you will need to use the GPU for faster inference.
+
+## Run 
+```
+python3 main.py [path to config file of the trained dataset] [videos or number of connected device]
+```
+
+## Training the model
+
+To train, please follow the instructions on the DLC2 repo:
+[DeepLabCut](https://github.com/AlexEMG/DeepLabCut) 
+
