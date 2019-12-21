@@ -1,8 +1,6 @@
-DeepLabCut-based Multi-Objects Tracking Framework
+# Real-Time Multiple Objects Tracking DLC-based Framework 
 
+This project meant to exploit the excellence of the inference of DeepLabCut for objects detection, pose estimation
+and track them across time (Kalman filter prediction in abscence of detections), rather than process every frame individually Thus, acheiving real-time tracking.The hungarian algorithm was used to solve the data association problem.
 
-
-Automated tracking of animal movement allows analysis that would not be possible only by providing great quantities of data.
-The capability of tracking in real-time allows detailed explorations of the neural basis for control of behavior in animals.
-
-
+ 
