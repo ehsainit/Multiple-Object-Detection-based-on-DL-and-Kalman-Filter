@@ -6,7 +6,6 @@ This repository contains code for Realtime Mutiple Object Tracking with [DLC2](h
 Despite, the recent remarkable progress in object detection deep-learning-based-systems, many of them do not track across time, but rather process each frame individually. Furthermore, the absence of computational efficiency and important latencies inspired taking local motion estimation and thus, achieving higher performance and lower latency. Read the report for more
 detailed information.
 
-By: Tabet Ehsainieh
 
 ## Dependencies
 The code is compatible with Python 3. The following dependencies are needed to run the framework:
