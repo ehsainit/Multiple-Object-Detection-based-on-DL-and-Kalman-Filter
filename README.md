@@ -36,3 +36,12 @@ python3 main.py [path to config file of the trained dataset] [videos or number o
 To train, please follow the instructions on the DLC2 repo:
 [DeepLabCut](https://github.com/AlexEMG/DeepLabCut) 
 
+
+### Notes
+This project was intended as a Bacholer project. So it might be not as generic as it should be :)
+
+Huge Thanks for Professor Andrew Straw (@astraw) for the very helpful supervision !
+Github: https://github.com/astraw
+Website: https://strawlab.org/
+
+
