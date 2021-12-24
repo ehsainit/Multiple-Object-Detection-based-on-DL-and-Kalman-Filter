@@ -2,7 +2,7 @@
 
 ## Introduction
 
-This repository contains code for Realtime Mutiple Object Tracking with [DLC2](https://github.com/AlexEMG/DeepLabCut)  Detectors.
+This repository contains code for Realtime Mutiple Object Tracking using [DLC2](https://github.com/AlexEMG/DeepLabCut)  Detectors.
 Despite, the recent remarkable progress in object detection deep-learning-based-systems, many of them do not track across time, but rather process each frame individually. Furthermore, the absence of computational efficiency and important latencies inspired taking local motion estimation and thus, achieving higher performance and lower latency. Read the report for more
 detailed information.
 
