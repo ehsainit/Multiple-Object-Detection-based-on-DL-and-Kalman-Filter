@@ -41,7 +41,9 @@ To train, please follow the instructions on the DLC2 repo:
 This project was intended as a Bacholer project. So it might be not as generic as it should be :)
 
 Huge Thanks for Professor Andrew Straw (@astraw) for the very helpful supervision !
+
 Github: https://github.com/astraw
+
 Website: https://strawlab.org/
 
 
